@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: #050810;
+    color: #F0F4FF;
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    min-height: 100vh;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.02);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: rgba(0, 212, 255, 0.3);
+    border-radius: 3px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 212, 255, 0.5);
+  }
+
+  /* Selection */
+  ::selection {
+    background: rgba(0, 212, 255, 0.2);
+    color: #F0F4FF;
+  }
+}
+
+@layer components {
+  /* Glassmorphism */
+  .glass {
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-strong {
+    background: rgba(255, 255, 255, 0.07);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  /* Neon text */
+  .text-neon-cyan {
+    color: #00D4FF;
+    text-shadow: 0 0 20px rgba(0, 212, 255, 0.5);
+  }
+
+  .text-neon-violet {
+    color: #7B2FFF;
+    text-shadow: 0 0 20px rgba(123, 47, 255, 0.5);
+  }
+
+  .text-neon-green {
+    color: #00FF9D;
+    text-shadow: 0 0 20px rgba(0, 255, 157, 0.5);
+  }
+
+  /* Gradient backgrounds */
+  .bg-radial-cyan {
+    background: radial-gradient(
+      ellipse at center,
+      rgba(0, 212, 255, 0.08) 0%,
+      transparent 70%
+    );
+  }
+
+  .bg-radial-violet {
+    background: radial-gradient(
+      ellipse at center,
+      rgba(123, 47, 255, 0.08) 0%,
+      transparent 70%
+    );
+  }
+
+  /* Grid pattern */
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(0, 212, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0, 212, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+
+  /* Neon border */
+  .border-neon-cyan {
+    border-color: rgba(0, 212, 255, 0.4);
+    box-shadow: 0 0 10px rgba(0, 212, 255, 0.1);
+  }
+
+  .border-neon-violet {
+    border-color: rgba(123, 47, 255, 0.4);
+    box-shadow: 0 0 10px rgba(123, 47, 255, 0.1);
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Space Grotesk', sans-serif;
+  }
+
+  .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
