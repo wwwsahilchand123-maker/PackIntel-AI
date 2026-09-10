@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-label="PackIntel-AI futuristic food packaging banner">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06131f"/><stop offset=".55" stop-color="#09273a"/><stop offset="1" stop-color="#031018"/></linearGradient>
+  <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#42e8a3"/><stop offset=".5" stop-color="#48bfff"/><stop offset="1" stop-color="#8b7cff"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" fill="none" stroke="#39aee0" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1200" height="430" rx="28" fill="url(#bg)"/>
+<rect width="1200" height="430" rx="28" fill="url(#grid)"/>
+<circle cx="930" cy="215" r="150" fill="#22d3ee" opacity=".06" filter="url(#glow)"/>
+<g transform="translate(72 66)">
+ <path d="M0 40 45 12l45 28-45 27z" fill="#42e8a3"/><path d="M0 40v54l45 28V67z" fill="#3b82f6"/><path d="M90 40v54l-45 28V67z" fill="#8b7cff"/>
+ <text x="118" y="58" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="800" fill="white">PackIntel<tspan fill="#42e8a3">-AI</tspan></text>
+ <text x="2" y="118" font-family="Arial,Helvetica,sans-serif" font-size="25" font-weight="600" fill="#8fd8ff">Smarter Packaging for a Healthier Tomorrow</text>
+ <text x="2" y="165" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#c5d7e3">AI-powered food packaging material recommendation</text>
+ <text x="2" y="192" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#c5d7e3">using intelligent analysis + Hybrid RAG knowledge retrieval.</text>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="700">
+  <rect x="2" y="235" width="150" height="45" rx="22" fill="#0c2534" stroke="#42e8a3"/><text x="30" y="264" fill="#42e8a3">AI ANALYSIS</text>
+  <rect x="166" y="235" width="150" height="45" rx="22" fill="#0c2534" stroke="#48bfff"/><text x="194" y="264" fill="#48bfff">HYBRID RAG</text>
+  <rect x="330" y="235" width="150" height="45" rx="22" fill="#0c2534" stroke="#8b7cff"/><text x="353" y="264" fill="#b9aaff">SMART CHOICE</text>
+ </g>
+</g>
+<g transform="translate(690 55)">
+ <rect x="0" y="0" width="440" height="320" rx="30" fill="#071a28" stroke="#1c6f91" stroke-width="2"/>
+ <rect x="35" y="35" width="370" height="250" rx="22" fill="#0b2534" stroke="#2bb8df" stroke-opacity=".5"/>
+ <path d="M105 92 Q220 48 335 92v105q-115 60-230 0z" fill="#b9ecff" fill-opacity=".10" stroke="#68d8ff" stroke-width="3"/>
+ <path d="M120 105q100-35 200 0" fill="none" stroke="#42e8a3" stroke-width="4"/>
+ <ellipse cx="220" cy="218" rx="128" ry="28" fill="#031018" stroke="#42e8a3" stroke-opacity=".7"/>
+ <g fill="#42e8a3"><circle cx="158" cy="145" r="10"/><circle cx="210" cy="122" r="8"/><circle cx="270" cy="145" r="11"/><circle cx="305" cy="174" r="7"/></g>
+ <g font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">
+  <rect x="-18" y="52" width="120" height="38" rx="19" fill="#0b3040" stroke="#42e8a3"/><text x="3" y="76" fill="#42e8a3">FRESH FOOD</text>
+  <rect x="338" y="105" width="125" height="38" rx="19" fill="#0b3040" stroke="#48bfff"/><text x="353" y="129" fill="#48bfff">AI SCORE 94%</text>
+  <rect x="300" y="245" width="150" height="38" rx="19" fill="#0b3040" stroke="#8b7cff"/><text x="317" y="269" fill="#b9aaff">SUSTAINABLE</text>
+ </g>
+ <circle cx="220" cy="160" r="125" fill="none" stroke="#42e8a3" stroke-opacity=".18" stroke-width="3" stroke-dasharray="10 14">
+  <animateTransform attributeName="transform" type="rotate" from="0 220 160" to="360 220 160" dur="14s" repeatCount="indefinite"/>
+ </circle>
+</g>
+<text x="72" y="394" font-family="Arial,Helvetica,sans-serif" font-size="16" fill="#7fa8ba">Food Technology • AI/ML • Packaging • Sustainability • Explainable Recommendations</text>
+</svg>
