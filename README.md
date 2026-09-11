@@ -1,16 +1,16 @@
 <div align="center">
 
-<img src="assets/packintel-banner.svg" alt="PackIntel-AI — Smarter Packaging for a Healthier Tomorrow" width="100%" />
+<img src="assets/packintel-banner.svg" alt="PackIntel-AI" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=900&color=42E8A3&center=true&vCenter=true&width=760&lines=AI-Powered+Packaging+Intelligence;Hybrid+RAG+%7C+Explainable+Recommendations;Food+%2B+Storage+%2B+Sustainability+%3D+Smarter+Choices" alt="Typing animation" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=850&color=42E8A3&center=true&vCenter=true&width=860&lines=AI-Powered+Packaging+Intelligence;Hybrid+RAG+%7C+Explainable+Recommendations;Food+%2B+Storage+%2B+Sustainability;Analyze+%E2%80%A2+Compare+%E2%80%A2+Recommend" alt="Typing animation" />
 
-[![AI Powered](https://img.shields.io/badge/AI-Powered-42e8a3?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
-[![Hybrid RAG](https://img.shields.io/badge/Hybrid-RAG-48bfff?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
-[![Food Technology](https://img.shields.io/badge/Food-Technology-8b7cff?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
+[![AI](https://img.shields.io/badge/AI-Powered-42E8A3?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
+[![RAG](https://img.shields.io/badge/Hybrid-RAG-48BFFF?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
+[![Food Tech](https://img.shields.io/badge/Food-Technology-8B7CFF?style=for-the-badge)](https://github.com/wwwsahilchand123-maker/PackIntel-AI)
 
 ### 🧠 Intelligent Food Packaging Material Recommendation System
 
-**Analyze food + storage conditions → retrieve relevant knowledge → compare materials → get an explainable recommendation.**
+**Analyze food + storage conditions → retrieve knowledge → score materials → explain the recommendation.**
 
 </div>
 
@@ -18,44 +18,54 @@
 
 ## 🌱 What is PackIntel-AI?
 
-PackIntel-AI is an AI-powered decision-support system for intelligent food packaging material selection. It evaluates food characteristics, storage conditions, shelf-life requirements and sustainability preferences to help identify suitable packaging options.
+PackIntel-AI is an AI-powered decision-support system for food packaging material selection. It combines requirement analysis, retrieval and recommendation logic to compare packaging options against food characteristics, storage conditions, shelf-life goals and sustainability preferences.
 
-The project combines recommendation logic with a **Hybrid RAG (Retrieval-Augmented Generation)** workflow so recommendations can be supported by relevant packaging knowledge and evidence.
+> **Important:** recommendations are decision support, not a substitute for food-contact safety assessment, regulatory compliance, migration testing, machinery compatibility, cost analysis or validated shelf-life studies.
 
-> **Important:** This is decision support—not a replacement for food-contact safety checks, regulatory compliance, migration assessment, machinery compatibility, cost analysis or validated laboratory shelf-life testing.
+## ✨ Core Features
 
-## ✨ Key Features
-
-| Feature | Description |
+| Feature | Purpose |
 |---|---|
-| 🤖 AI Recommendations | Suggests suitable packaging material options from requirements |
-| 🧠 Hybrid RAG | Retrieves relevant packaging knowledge |
-| 📊 Explainable Scoring | Shows why a material receives its recommendation score |
-| ⚖️ Material Comparison | Compare packaging alternatives side-by-side |
-| 🔬 What-If Simulator | Test how changing requirements affects recommendations |
-| 📚 Evidence Support | Provides supporting knowledge behind recommendations |
-| 🖥️ Futuristic UI | Interactive web experience for demonstrations |
+| 🤖 AI Recommendations | Rank packaging material options against requirements |
+| 🧠 Hybrid RAG | Retrieve relevant packaging knowledge |
+| 📊 Explainable Scoring | Show the reasoning behind recommendation scores |
+| ⚖️ Material Comparison | Compare alternatives side-by-side |
+| 🔬 What-If Simulator | Explore how requirement changes affect results |
+| 📚 Evidence Support | Connect recommendations with supporting knowledge |
+| 🖥️ Interactive UI | Present the workflow as a modern web experience |
 
-## ⚡ How It Works
+## ⚡ Decision Pipeline
 
 ```mermaid
 flowchart LR
- A[Food + Storage Input] --> B[Hybrid RAG]
+ A[Food + Storage Input] --> B[Requirement Analysis]
  B --> C[Knowledge Retrieval]
- C --> D[AI + Recommendation Logic]
+ C --> D[Recommendation Logic]
  D --> E[Material Scoring]
- E --> F[Explainable Recommendation]
+ E --> F[Explainable Ranking]
  F --> G[Compare / What-If]
 ```
 
-## 🎯 Example Use Case
+## 🎯 Example
 
-**Fresh strawberries + refrigerated storage + extended shelf life + sustainability priority** → the system analyzes the requirements, retrieves relevant knowledge, evaluates candidate materials and presents a ranked recommendation with reasoning.
+```text
+Fresh strawberries
+        +
+Refrigerated storage
+        +
+Extended shelf-life goal
+        +
+Sustainability priority
+        ↓
+Knowledge retrieval + material evaluation
+        ↓
+Ranked recommendation + explanation
+```
 
 ## 🛠️ Technology Stack
 
 **Backend:** Python • FastAPI • Recommendation Services • RAG / Retrieval Workflow  
-**Frontend:** TypeScript / JavaScript • Modern Web UI • Interactive Workflows  
+**Frontend:** TypeScript / JavaScript • Modern Web UI  
 **AI & Data:** Retrieval-Augmented Generation • Embeddings / Vector Retrieval • Packaging Knowledge • Explainable Recommendation Logic
 
 ## 📁 Project Structure
@@ -92,16 +102,25 @@ cd frontend
 npm install
 ```
 
-Use the scripts defined in `frontend/package.json` to start the development server. Keep API keys and local environment values out of GitHub.
+Use the scripts in `frontend/package.json` to start the development server. Keep API keys and local environment values out of Git.
+
+## 🔬 Evaluation Roadmap
+
+A recommendation system should eventually be evaluated with reproducible test cases rather than only screenshots.
+
+- [ ] Benchmark recommendation quality on curated scenarios
+- [ ] Add retrieval relevance evaluation
+- [ ] Measure recommendation consistency
+- [ ] Add explainability / evidence coverage checks
+- [ ] Expand commodity and storage-condition coverage
 
 ## 🔮 Future Scope
 
-- Larger packaging-material knowledge base
+- Larger packaging knowledge base
 - More food commodities and storage scenarios
-- Advanced lifecycle / sustainability analysis
+- Lifecycle and sustainability analysis
 - Regulatory and food-contact compliance modules
 - Cost and supply-chain optimization
-- Recommendation benchmarking and evaluation
 - Industry-facing deployment
 
 ## ⚠️ Disclaimer
@@ -112,10 +131,10 @@ PackIntel-AI is intended for academic, research and decision-support purposes. R
 
 <div align="center">
 
-### 🌿 Good Food · Smart Packaging · Sustainable Future
+### 🌿 GOOD FOOD · SMART PACKAGING · SUSTAINABLE FUTURE
 
-⭐ **Star the repo if you like the idea.**
+⭐ **Star the repo if the idea is useful.**
 
-**Built with ❤️ by Sahil Chand**
+**Built by Sahil Chand**
 
 </div>
