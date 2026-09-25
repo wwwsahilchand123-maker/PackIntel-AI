@@ -138,3 +138,19 @@ PackIntel-AI is intended for academic, research and decision-support purposes. R
 **Built by Sahil Chand**
 
 </div>
+
+---
+
+## 🧪 Recommendation Evaluation
+
+Recommendations should be evaluated with reproducible scenarios rather than screenshots alone.
+
+Recommended checks include:
+
+- Normal, boundary, incomplete and conflicting inputs
+- Ranking consistency for repeated identical inputs
+- Evidence coverage for important recommendation factors
+- Explicit handling of uncertainty
+- Regression fixtures for changes to ranking logic
+
+See [Recommendation Evaluation](docs/RECOMMENDATION_EVALUATION.md), [Recommendation Safety](docs/RECOMMENDATION_SAFETY.md) and [Product Requirements](docs/PRD.md).
